@@ -6,6 +6,7 @@ import { addQuote } from "../lib/api";
 
 const NewQuote = () => {
     const { sendRequest, status } = useHttp(addQuote);
+    console.log(sendRequest);
     const history = useHistory();
 
     useEffect(() => {

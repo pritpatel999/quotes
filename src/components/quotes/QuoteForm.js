@@ -8,8 +8,8 @@ import classes from "./QuoteForm.module.css";
 
 const QuoteForm = (props) => {
     const [isEntering, setIsEntering] = useState(false);
-    const authorInputRef = useRef();
-    const textInputRef = useRef();
+    const authorInputRef = useRef('');
+    const textInputRef = useRef('');
 
     function submitFormHandler(event) {
         event.preventDefault();
