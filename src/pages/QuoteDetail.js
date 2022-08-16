@@ -37,7 +37,6 @@ const QuoteDetail = () => {
     if (!loadedQuote.text) {
         return <p className="centered">No Quote Found!</p>;
     }
-    console.log(match);
     return (
         <Fragment>
             <HighlightedQuote

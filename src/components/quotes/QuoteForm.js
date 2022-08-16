@@ -1,6 +1,5 @@
-import { useRef, useState } from "react";
+import { useRef, useState, Fragment } from "react";
 import { Prompt } from "react-router-dom";
-import { Fragment } from "react/cjs/react.development";
 
 import Card from "../UI/Card";
 import LoadingSpinner from "../UI/LoadingSpinner";
